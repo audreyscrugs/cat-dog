@@ -5,27 +5,38 @@
     <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
     <script src="js/jquery-1.11.3.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Talk to the web page</title>
+    <title>Cat vs Dog</title>
   </head>
   <body>
     <div class="container">
-      <h1>Talk to the web page</h1>
+      <h1>Cat vs Dog</h1>
       <p>Click a button to say something to the web page. See what it says back!</p>
 
-      <button class="btn btn-primary" id="hello">Say "hello"</button>
-      <button class="btn btn-inverse" id="goodbye">Say "goodbye"</button>
-      <button class="btn btn-danger" id="stop">Say "stop copying me!"</button>
+      <button class="btn btn-primary" id="meow">Say "Meow"</button>
+      <button class="btn btn-inverse" id="bark">Say "Bark"</button>
+
 
       <div class="row">
         <div class="col-md-6">
-          <h2>You said:</h2>
-          <ul class="unstyled" id="user">
+          <h1>Cat</h1>
+          <img src="img/cat-dog-left.png" alt="A nice combination of cat and dog">
+        </div>
+        <div class="col-md-6">
+          <h1>Dog</h1>
+          <img src="img/cat-dog-right.jpeg" alt="A nice combination of cat and dog">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>The cat said:</h2>
+          <ul class="unstyled" id="cat">
           </ul>
         </div>
 
         <div class="col-md-6">
-          <h2>The web page said back:</h2>
-          <ul class="unstyled" id="webpage">
+          <h2>The dog said:</h2>
+          <ul class="unstyled" id="dog">
           </ul>
         </div>
 
